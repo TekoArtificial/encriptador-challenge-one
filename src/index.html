@@ -13,6 +13,43 @@
 </head>
 <body>
 
+    <div class="main_container">
+        <div class="input_container">
+
+                <div class="header">
+                    <img class="logo" src="../img/Logo.png" alt="Alura logo">
+                    <p class="titulo">Encriptador de texto</p>
+                </div>
+
+                <div class="encrypt_container">
+                    <textarea placeholder="Ingrese el texto aquí" name="texto"></textarea>
+                    <p><img src="../img/signo_exclamacion.png" /> Sólo letras minúsculas sin acento</p>
+                    <div class="btn_container">
+                        <button id="encrypt_btn">Encriptar</button>
+                        <button id="decrypt_btn">Desencriptar</button>
+                    </div>
+                </div>
+        </div>
+
+        <div class="decrypt_container">
+            <img src="../img/Muñeco.png" alt="No hay texto"/>
+            <textarea class="active" placeholder="Ingrese el texto aquí" name="texto"></textarea>
+            <h2>Ningún mensaje fue encontrado</h2>
+            <button id="copy_btn" class="active">Copiar</button>
+            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+                      
+    </div>
+
+    <footer>
+        <div>
+            <h5>Challenge ONE Sprint 01: Encriptador de texto -</h5>
+            <p class="footer">Enero 2023 - Autor: José Ramón Jiménez Vizcarra</p>
+
+
+        </div>
+    </footer>
+
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

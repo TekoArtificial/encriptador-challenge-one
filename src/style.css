@@ -1,0 +1,11 @@
+body {
+    background:
+        linear-gradient(90deg, #FFFFFF 0%, rgba(236, 233, 230, 1) 96.88%);    /* gradient */
+        font-family: 'Inter', sans-serif;
+  }
+
+.main_container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 30px ;
+}
